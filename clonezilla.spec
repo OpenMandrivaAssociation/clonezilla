@@ -35,7 +35,7 @@ For more info, check http://clonezilla.org, http://clonezilla.nchc.org.tw.
 %files
 %doc doc/*
 #_sbindir/*
-%_bindir/*
+#_bindir/*
 %_datadir/drbl/*
 %_datadir/%name/
 %_sysconfdir/drbl/*
