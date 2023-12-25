@@ -34,8 +34,27 @@ For more info, check http://clonezilla.org, http://clonezilla.nchc.org.tw.
 
 %files
 %doc doc/*
-#_sbindir/*
-#_bindir/*
+%{_sbindir}/clonezilla
+%{_sbindir}/nvt-ocs-dev
+%{_sbindir}/create-debian-live
+%{_sbindir}/create-drbl-live
+%{_sbindir}/create-drbl-live-by-pkg
+%{_sbindir}/create-gparted-live
+%{_sbindir}/create-ocs-tmp-img
+%{_sbindir}/create-ubuntu-live
+%{_sbindir}/cv-ocsimg-v1-to-v2
+%{_sbindir}/drbl-ocs
+%{_sbindir}/drbl-ocs-live-prep
+%{_sbindir}/ocs-*
+%{_sbindir}/ocsmgrd
+%{_sbindir}/prep-ocsroot
+%{_sbindir}/update-efi-nvram-boot-entry
+%{_bindir}/gen-torrent-from-ptcl
+%{_bindir}/get-latest-ocs-live-ver
+%{_bindir}/ocs-get-nic-fw-lst
+%{_bindir}/ocs-live-ver
+%{_bindir}/ocs-scan-disk
+%{_bindir}/ocs-socket
 %_datadir/drbl/*
 %_datadir/%name/
 %_sysconfdir/drbl/*
