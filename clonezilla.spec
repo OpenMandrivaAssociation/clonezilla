@@ -1,11 +1,11 @@
 Summary:	Opensource Clone System (ocs), clonezilla
 Name:		clonezilla
-Version:	3.35.2
+Version:	5.5.20
 Release:	1
 License:	GPLv2+
 Group:		Archiving/Backup
 URL:		http://www.clonezilla.org
-Source0:	http://free.nchc.org.tw/drbl-core/src/stable/%{name}-%{version}.tar.xz
+Source0:	http://free.nchc.org.tw/drbl-core/src/unstable/%{name}-%{version}.tar.xz
 BuildArch:	noarch
 Requires:	drbl
 Requires:	partimage
