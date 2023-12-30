@@ -8,7 +8,7 @@ diff -uraN clonezilla-5.5.20/Makefile omv-clonezilla-5.5.20/Makefile
 -	install -d ${DESTDIR}/usr/
 -	cp -a sbin bin ${DESTDIR}/usr/
 +	install -d ${DESTDIR}/usr/bib
-+	cp -a sbin/* bin/* ${DESTDIR}/usr/bin/
++	cp -a sbin bin ${DESTDIR}/usr/bin/
  
  	# install setup dir
  	install -d $(DESTDIR)/$(SHAREDIR)/
