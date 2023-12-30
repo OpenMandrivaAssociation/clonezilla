@@ -6,6 +6,7 @@ License:	GPLv2+
 Group:		Archiving/Backup
 URL:		http://www.clonezilla.org
 Source0:	http://free.nchc.org.tw/drbl-core/src/unstable/%{name}-%{version}.tar.xz
+Patch0:   usrbin.patch  
 BuildArch:	noarch
 Requires:	drbl
 Requires:	partimage
@@ -24,7 +25,7 @@ is for massive deployment, it can clone many (40 plus!) computers simultaneously
 For more info, check http://clonezilla.org, http://clonezilla.nchc.org.tw.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %make_build
@@ -34,21 +35,21 @@ For more info, check http://clonezilla.org, http://clonezilla.nchc.org.tw.
 
 %files
 %doc doc/*
-%{_sbindir}/clonezilla
-%{_sbindir}/nvt-ocs-dev
-%{_sbindir}/create-debian-live
-%{_sbindir}/create-drbl-live
-%{_sbindir}/create-drbl-live-by-pkg
-%{_sbindir}/create-gparted-live
-%{_sbindir}/create-ocs-tmp-img
-%{_sbindir}/create-ubuntu-live
-%{_sbindir}/cv-ocsimg-v1-to-v2
-%{_sbindir}/drbl-ocs
-%{_sbindir}/drbl-ocs-live-prep
-%{_sbindir}/ocs-*
-%{_sbindir}/ocsmgrd
-%{_sbindir}/prep-ocsroot
-%{_sbindir}/update-efi-nvram-boot-entry
+#{_sbindir}/clonezilla
+#{_sbindir}/nvt-ocs-dev
+#{_sbindir}/create-debian-live
+#{_sbindir}/create-drbl-live
+#{_sbindir}/create-drbl-live-by-pkg
+#{_sbindir}/create-gparted-live
+#{_sbindir}/create-ocs-tmp-img
+#{_sbindir}/create-ubuntu-live
+#{_sbindir}/cv-ocsimg-v1-to-v2
+#{_sbindir}/drbl-ocs
+#{_sbindir}/drbl-ocs-live-prep
+#{_sbindir}/ocs-*
+#{_sbindir}/ocsmgrd
+#{_sbindir}/prep-ocsroot
+#{_sbindir}/update-efi-nvram-boot-entry
 %{_bindir}/gen-torrent-from-ptcl
 %{_bindir}/get-latest-ocs-live-ver
 %{_bindir}/ocs-get-nic-fw-lst
