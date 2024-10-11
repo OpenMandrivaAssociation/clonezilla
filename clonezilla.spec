@@ -1,6 +1,6 @@
 Summary:	Opensource Clone System (ocs), clonezilla
 Name:		clonezilla
-Version:	5.5.20
+Version:	5.6.23
 Release:	1
 License:	GPLv2+
 Group:		Archiving/Backup
