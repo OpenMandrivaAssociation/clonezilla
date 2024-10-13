@@ -6,7 +6,7 @@ License:	GPLv2+
 Group:		Archiving/Backup
 URL:		http://www.clonezilla.org
 Source0:	http://free.nchc.org.tw/drbl-core/src/unstable/%{name}-%{version}.tar.xz
-#Patch0:   usrbin.patch  
+Patch0:   usrbin.patch  
 BuildArch:	noarch
 Requires:	drbl
 Requires:	partimage
