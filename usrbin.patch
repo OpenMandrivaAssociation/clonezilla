@@ -1,0 +1,14 @@
+diff -uraN clonezilla-5.6.23/Makefile omv-clonezilla-5.6.23/Makefile
+--- clonezilla-5.6.23/Makefile	2024-01-03 06:05:31.000000000 +0100
++++ omv-clonezilla-5.6.23/Makefile	2024-10-13 17:08:00.804663270 +0200
+@@ -22,8 +22,8 @@
+ 
+ install:
+ 	# install exec files
+-	install -d ${DESTDIR}/usr/
+-	cp -a sbin bin ${DESTDIR}/usr/
++	install -d ${DESTDIR}/usr/bin
++	cp -a sbin/* bin/* ${DESTDIR}/usr/bin
+ 
+ 	# install setup dir
+ 	install -d $(DESTDIR)/$(SHAREDIR)/
