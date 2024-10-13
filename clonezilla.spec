@@ -14,7 +14,7 @@ Requires:	psmisc
 Requires:	udpcast
 Requires:	partclone
 Requires:	ntfsprogs
-Requires:	cdialog
+Requires:	dialog
 
 %description
 Clonezilla, based on DRBL, Partition Image, ntfsclone, partclone, and udpcast,
