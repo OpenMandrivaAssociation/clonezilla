@@ -4,7 +4,7 @@ Version:	5.6.23
 Release:	1
 License:	GPLv2+
 Group:		Archiving/Backup
-URL:		http://www.clonezilla.org
+URL:		https://www.clonezilla.org
 Source0:	http://free.nchc.org.tw/drbl-core/src/unstable/%{name}-%{version}.tar.xz
 Patch0:   usrbin.patch  
 BuildArch:	noarch
