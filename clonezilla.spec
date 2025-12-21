@@ -16,6 +16,7 @@ Requires:	partclone
 Requires:	ntfsprogs
 Requires:	dialog
 
+BuildRequires:	make
 %description
 Clonezilla, based on DRBL, Partition Image, ntfsclone, partclone, and udpcast,
 allows you to do bare metal backup and recovery. Two types of Clonezilla
